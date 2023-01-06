@@ -6,6 +6,6 @@ import java.util.Scanner;
 public class RpsRunner {
     public static void main(String[] args) {
         //GameBox.run();
-        GameGui gameGui = new GameGui();
+        new GameGui();
     }
 }

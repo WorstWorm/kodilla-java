@@ -8,10 +8,10 @@ public class RpsTestSuite {
     @Test
     public void testGetScore(){
         //GIVEN
-        GameBox.testSetter("Player", 1, 3, 3, 2);
+        GameBoxWithoutGui.testSetter("Player", 1, 3, 3, 2);
 
         //WHEN
-        String actual = GameBox.getScore();
+        String actual = GameBoxWithoutGui.getScore();
         String expected ="SCORE\nPlayer: 3 VS computer: 2";
 
         //THEN

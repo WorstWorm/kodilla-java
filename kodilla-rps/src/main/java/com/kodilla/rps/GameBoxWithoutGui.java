@@ -3,7 +3,7 @@ package com.kodilla.rps;
 import java.util.Random;
 import java.util.Scanner;
 
-public class GameBox {
+public class GameBoxWithoutGui {
     private static String playerName="Player One";
     private static int round = 1;
     private static int roundLimit = 1;
